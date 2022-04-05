@@ -17,4 +17,19 @@ function getRandomName(number: number) {
     }
 }
 
-export { allNames, starWarsNames, transformersNames, getRandomName }
+function checkIsStarWarsName(name: string) {
+    return starWarsNames.includes(name)
+}
+
+function checkIsTransformerName(name: string) {
+    return transformersNames.includes(name)
+}
+
+export {
+    allNames,
+    starWarsNames,
+    transformersNames,
+    getRandomName,
+    checkIsStarWarsName,
+    checkIsTransformerName,
+}

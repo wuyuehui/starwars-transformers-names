@@ -14,11 +14,11 @@ export default {
     external: externalDeps.concat(nodeDeps),
     output: [
         {
-            file: 'dist/index.es.js',
+            file: pkg.module,
             format: 'es',
         },
         {
-            file: 'dist/index.js',
+            file: pkg.main,
             format: 'cjs',
         },
     ],
