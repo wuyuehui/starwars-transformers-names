@@ -1,6 +1,6 @@
 {
   "name": "starwars-transformers-names",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.0",
   "description": "Get random starwars or transformers names",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
